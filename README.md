@@ -1,7 +1,13 @@
-# template-webpack
+# Template-webpack Project
 
 This is an empty template project using webpack with 'webpack-merge' to split webpack configuration in different files. It handles HTML, CSS, JS and images, with base files already created and linked.  
 Ready to run a local server and deploy in production mode. 
+
+## Set the project locally
+* Edit project name - `npm pkg set name="<project-name>"`
+* Edit repository URL - `npm pkg set repository.url="<github-url>"`
+* Install dependencies - `npm install`
+
 
 ### Scripts
 `npm run build` - to deploy.
